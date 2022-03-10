@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Product from "./Product";
 
 function Home() {
   return (
@@ -10,15 +11,38 @@ function Home() {
           className="home__image"
         />
         <div className="home__row">
+          <Product
+            name="My first product"
+            price="50"
+            rating="3"
+            image="https://images-na.ssl-images-amazon.com/images/I/31Jt+OzguxL._SX331_BO1,204,203,200_.jpg"
+          />
+          <Product />
+          {/* 
+          <div className="home__product"></div>
+          <div className="home__product"></div> */}
           {/* Product */}
           {/* Product */}
         </div>
         <div className="home__row">
+          <Product />
+          <Product />
+          <Product />
+
+          {/* <div className="home__product"></div>
+          <div className="home__product"></div>
+          <div className="home__product"></div> */}
+
           {/* Product */}
           {/* Product */}
           {/* Product */}
         </div>
-        <div className="home__row">{/* Product */}</div>
+        <div className="home__row">
+          <Product />
+
+          {/* <div className="home__product"></div> */}
+          {/* Product */}
+        </div>
       </div>
     </div>
   );
