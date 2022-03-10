@@ -15,7 +15,7 @@ function Home() {
             name="My first product"
             price="50"
             rating="3"
-            image="https://images-na.ssl-images-amazon.com/images/I/31Jt+OzguxL._SX331_BO1,204,203,200_.jpg"
+            image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
           />
           <Product />
           {/* 
