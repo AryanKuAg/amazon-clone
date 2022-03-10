@@ -1,8 +1,43 @@
 .header {
-  color: blue;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100000;
 }
 
 .header__logo {
-  height: 50px;
-  width: auto;
+  height: auto;
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  /* flex-grow: 1; */
+}
+
+.header__searchInput {
+  width: 100%;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__option {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.header__optionLineOne {
+  display: inline-block;
+}
+
+.header__optionLineTwo {
 }
