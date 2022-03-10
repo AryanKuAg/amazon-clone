@@ -1,0 +1,8 @@
+.header {
+  color: blue;
+}
+
+.header__logo {
+  height: 50px;
+  width: auto;
+}
