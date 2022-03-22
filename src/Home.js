@@ -17,7 +17,13 @@ function Home() {
             rating="3"
             image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
           />
-          <Product />
+          <Product
+            name="My first product"
+            price="50"
+            rating="3"
+            image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
+          />
+
           {/* 
           <div className="home__product"></div>
           <div className="home__product"></div> */}
@@ -25,9 +31,24 @@ function Home() {
           {/* Product */}
         </div>
         <div className="home__row">
-          <Product />
-          <Product />
-          <Product />
+          <Product
+            name="My first product"
+            price="50"
+            rating="3"
+            image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
+          />
+          <Product
+            name="My first product"
+            price="50"
+            rating="3"
+            image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
+          />
+          <Product
+            name="My first product"
+            price="50"
+            rating="3"
+            image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
+          />
 
           {/* <div className="home__product"></div>
           <div className="home__product"></div>
@@ -38,7 +59,12 @@ function Home() {
           {/* Product */}
         </div>
         <div className="home__row">
-          <Product />
+          <Product
+            name="My first product"
+            price="50"
+            rating="3"
+            image="https://m.media-amazon.com/images/I/31uPoOqIutL.jpg"
+          />
 
           {/* <div className="home__product"></div> */}
           {/* Product */}
